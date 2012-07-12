@@ -49,6 +49,7 @@ public class GitLibrary {
 		System.out.println("Welcome to Lib 2.0");
 		printOptions();
 		System.out.println("Goodbye my dear");
+		System.out.println("T");
 	}
 
 	private void printOptions() {
