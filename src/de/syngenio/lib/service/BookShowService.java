@@ -18,7 +18,7 @@ public class BookShowService implements IMenuChoiceService{
 		for (Book book : booksFound) {
 			System.out.println("" + book);
 		}
-		CharacterReader.readString("Bitte drücken sie irgendeine Taste für weiter");
+		CharacterReader.readString("Bitte drücken sie any key für weiter");
 	}
 	
 	public BookDao getBookDao() {
